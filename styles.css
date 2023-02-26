@@ -13,17 +13,7 @@ body {
   border: 2px solid black;
   width: 50%;
   height: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.child-container {
-  height: 50px;
-  background-color: grey;
-  border: 3px solid goldenrod;
-  padding: 5px;
-}
-
-.text {
-  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
